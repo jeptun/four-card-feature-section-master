@@ -1,0 +1,27 @@
+@use "../globals/" as g;
+@use "../util/" as u;
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  //max-width: u.rem(500);
+  margin: 0 auto;
+}
+
+.hero-title,
+.hero-subtitle {
+ 
+  font-size: u.rem(35);
+  color: hsl(var(--Very-Dark-Blue));
+}
+.hero-title {
+  font-weight: 200;
+}
+.hero-subtitle {
+  font-weight: 600;
+}
+.hero-detail{
+    margin: u.rem(15) 0  u.rem(40) 0;
+    color: hsl(var(--Grayish-Blue));
+}
