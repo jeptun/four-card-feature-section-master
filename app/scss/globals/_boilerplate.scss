@@ -54,5 +54,9 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  background-color: hsl(var( --Very-Light-Gray));
+  background: linear-gradient(
+    120.63457363738826deg,
+    rgba(233, 255, 247, 1) 5.4125%,
+    rgba(213, 245, 253, 1) 96.9125%
+  );
 }

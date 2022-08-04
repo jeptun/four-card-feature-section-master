@@ -11,9 +11,13 @@
 
 .hero-title,
 .hero-subtitle {
- 
-  font-size: u.rem(35);
   color: hsl(var(--Very-Dark-Blue));
+  @include u.breakpoint-up(tiny) {
+    font-size: u.rem(22);
+  }
+  @include u.breakpoint-up(small) {
+    font-size: u.rem(35);
+  }
 }
 .hero-title {
   font-weight: 200;
@@ -21,7 +25,7 @@
 .hero-subtitle {
   font-weight: 600;
 }
-.hero-detail{
-    margin: u.rem(15) 0  u.rem(40) 0;
-    color: hsl(var(--Grayish-Blue));
+.hero-detail {
+  margin: u.rem(15) 0 u.rem(40) 0;
+  color: hsl(var(--Grayish-Blue));
 }
